@@ -72,7 +72,7 @@ function Main() {
         </Container>
       </section>
       <section id="section-three">
-        <Container className="mt-5 pt-5">
+        <Container className="mt-5 pt-5 slide-left">
           <Row className="mb-5 block-row">
             <Col>
               {" "}
@@ -205,7 +205,7 @@ function Main() {
       </section>
       <section id="section-four">
         {" "}
-        <Container className="mt-5 pt-5">
+        <Container className="mt-5 pt-5 slide-left">
           <Row className="block-row">
             {" "}
             <Col>
@@ -239,7 +239,7 @@ function Main() {
         </Container>
       </section>
       <section id="section-five">
-        <Container className="mt-5 pt-5">
+        <Container className="mt-5 pt-5 slide-left">
           <Row className="mb-5 block-row">
             <Col>
               {" "}
@@ -372,7 +372,7 @@ function Main() {
       </section>
       <section id="section-six">
         {" "}
-        <Container className="mt-5 pt-5">
+        <Container className="mt-5 pt-5 slide-left">
           <Row className="flex-column-reverse flex-lg-row">
             {" "}
             <Col className="col-md-12 col-lg-6 ">
@@ -387,9 +387,11 @@ function Main() {
               </div>
             </Col>
             <Col class="col-md-12 col-lg-6 ">
-              <h3 className="tolu-experience-three text-white mb-3">
-                Be a member of our community 🎉
-              </h3>
+              <img
+                className="img-fluid tolu-experience-three"
+                src={window.location.origin + "/img/member.png"}
+                alt=""
+              />{" "}
               <p className="customer text-white">
                 We’d make sure you’re always first to know what’s happening on
                 Vasiti—thus, the world.

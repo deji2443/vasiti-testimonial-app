@@ -349,11 +349,14 @@ a:link {
     padding-left: 0.3rem;
   }
   .block-row {
-    display: inline-block;
+    display: block;
   }
   #section-six {
     max-height: 100%;
     padding-bottom: 3rem;
+  }
+  h3.tolu-experience {
+    width: auto;
   }
   .overlayLogo-three {
     top: 0px;
@@ -384,4 +387,25 @@ a:link {
   input#inlineFormInput\ input-subscribe {
     width: 215px;
   }
+  h3.tolu-experience {
+    margin-top: 2rem;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  p.customer {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .story,
+  .story-vend,
+  form {
+    padding-bottom: 2rem;
+  }
+  .slide-left {
+    margin-left: auto;
+  }
+}
+img.img-fluid.tolu-experience-three {
+  margin-bottom: 1rem;
+  max-width: 300px;
 }
