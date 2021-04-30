@@ -291,6 +291,12 @@ button.input-btn {
   max-width: 90px;
   font-size: 10px;
 }
+
+.navbar-light .navbar-toggler,
+.navbar-light:active .navbar-toggler:active {
+  color: rgba(0, 0, 0, 0.5);
+  border: none !important;
+}
 input#inlineFormInput\ input-subscribed {
   width: 100%;
 }
@@ -356,6 +362,9 @@ a:link {
     width: 5rem;
     padding-left: 0.3rem;
   }
+  #footer-link .nav-link {
+    width: 100px;
+  }
   .block-row {
     display: block;
   }
@@ -389,7 +398,7 @@ a:link {
   }
   p.customer {
     position: relative;
-    width: 347px;
+    width: 320px;
   }
 
   h3.tolu-experience {
@@ -401,10 +410,11 @@ a:link {
     font-size: 16px;
     line-height: 150%;
   }
-  .story,
-  .story-vend,
   form {
     padding-bottom: 2rem;
+  }
+  hr.share-story {
+    margin-bottom: 2rem !important;
   }
   .slide-left {
     margin-left: auto;
@@ -435,4 +445,33 @@ button .sub-button {
   border: 1px solid blue;
   background: blue;
   color: white;
+}
+@media screen and (max-width: 1200px) {
+  #section-six {
+    max-height: 100%;
+  }
+  .footer-row {
+    display: inline-flex;
+    margin: 0px 0px 0px 40px;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-row {
+    display: inline-flex;
+    margin: 0px 0px 0px 100px;
+    padding: 0;
+  }
+}
+
+hr.share-story {
+  clip-path: polygon(36% 10%, 100% 10%, 95% 13%, 38% 17%, 0 31%, 0 26%);
+  /* clip-path: polygon(36% 10%, 100% 10%, 95% 13%, 38% 17%, 0 24%, 0 21%); */
+  margin-top: -0.5rem;
+  /* clip-path: polygon(36% 14%, 100% 10%, 95% 13%, 41% 18%, 0 24%, 0 21%); */
+  margin-bottom: 1rem;
+  border: 0;
+  max-width: 300px;
+  margin-left: 0rem;
+  border-top: 28px solid #ff5c00;
 }

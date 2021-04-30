@@ -67,6 +67,7 @@ function Main() {
                 experience. I would definately be coming back!
               </p>
               <h4 className="text-white story">Share your own story!</h4>
+              <hr className="share-story" />
             </Col>
           </Row>
         </Container>
@@ -219,7 +220,8 @@ function Main() {
                 was great, very good customer service, an all round great
                 experience. I would definately be coming back!
               </p>
-              <h4 className="story-vend">Share your own story!</h4>
+              <h4 className="story-vend">Share your own story!</h4>{" "}
+              <hr className="share-story" />
             </Col>{" "}
             <Col>
               <div className="Testimonial-wrapper-three">
