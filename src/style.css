@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+a.sign-up.nav-link {
+  background: #ff5c00;
+  color: white !important;
+  border-radius: 4px;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #242120;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  margin: 0.4rem;
+}
+
+.Testimonial-wrapper {
+  background: #fff8f5;
+  /* height: 200px;
+  width: 200px; */
+  border-radius: 50%;
+}
+
+.overlayLogo {
+  position: relative;
+  z-index: 99999;
+  top: -44px;
+  left: 15%;
+}
+
+h3.experience {
+  font-family: "Inter", sans-serif;
+  width: 586px;
+  height: 180px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+p.customer {
+  position: relative;
+  width: 489px;
+  /* height: 62px; */
+  /* left: 173px;
+  top: 462px; */
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  /* or 172% */
+
+  letter-spacing: 0.02em;
+
+  color: #494949;
+}
+
+#section-two,
+#section-six,
+#footer-section {
+  background: #222222;
+}
+#section-four {
+  background: #fff8f5;
+}
+.overlayLogo-three {
+  position: relative;
+  z-index: 99999;
+  top: -93px;
+  /* left: 4%; */
+}
+
+h3.tolu-experience-three {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.01em;
+  width: 300px;
+}
+.overlayLogo-two {
+  position: relative;
+  z-index: 99999;
+  top: -44px;
+  left: 4%;
+}
+
+.Testimonial-wrapper-two {
+  background: #2e2e2e;
+  border-radius: 50%;
+}
+
+h3.tolu-experience {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  width: 375px;
+  /* height: 39px; */
+}
+
+h6.customer {
+  border: 1px solid white;
+  width: 93px;
+  height: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  padding: 0.5rem;
+}
+
+.story {
+  left: 897px;
+  top: 1225px;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.testimonial-text {
+  left: 0px;
+  top: 323px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  letter-spacing: 0.02em;
+
+  color: #474747;
+}
+
+.testim-name {
+  left: 0px;
+  top: 232px;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #474747;
+}
+
+.user-location {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+
+  color: #535353;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 16px; */
+}
+
+.customer-vendor {
+  width: 95px;
+  height: 30px;
+  left: 72px;
+  top: 0px;
+  padding: 0.3rem;
+  margin: 0.5rem;
+  background: #eef8ff;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #0d019a;
+}
+.Testimonial-wrapper-three {
+  background: #fff3ee;
+  border-radius: 50%;
+}
+
+h6.customer-vend {
+  border: 1px solid #ff5c00;
+  width: 75px;
+  color: #ff5c00;
+  height: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  padding: 0.5rem;
+}
+.story-vend {
+  left: 897px;
+  top: 1225px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ff5c00;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.customer-vendor-two {
+  width: 95px;
+  height: 30px;
+  left: 72px;
+  top: 0px;
+  padding: 0.3rem;
+  margin: 0.5rem;
+  background: #f0ffee;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #049a01;
+}
+
+input#inlineFormInput\ input-subscribe {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  width: 311px;
+  height: 48px;
+}
+.input-btn,
+.input-btn:hover {
+  color: #242120;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 1px 4px 8px rgb(239 88 3 / 20%);
+  border-radius: 4px;
+  text-align: center;
+}
+
+button.input-btn {
+  left: -117px;
+  position: relative;
+}
+#section-six {
+  max-height: 360px;
+}
+p.customer-two {
+  position: relative;
+  width: 440px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+  color: #494949;
+}
+
+.footer-h6 {
+  color: #fff;
+  margin-top: 2rem;
+}
+
+#footer-link a {
+  color: #fff;
+}
+
+#footer-link .nav-link {
+  display: block;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+#footer-section {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+a.social-icon {
+  width: 30px !important;
+  height: 30px !important;
+  margin: 0.2rem;
+}
+g.social-svg-mask {
+  fill: white !important;
+}
+a:link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  a.sign-up.nav-link {
+    width: 5rem;
+    padding-left: 0.3rem;
+  }
+  .block-row {
+    display: inline-block;
+  }
+  #section-six {
+    max-height: 100%;
+    padding-bottom: 3rem;
+  }
+  .overlayLogo-three {
+    top: 0px;
+  }
+  .overlayLogo {
+    top: 0px;
+    left: 0;
+  }
+  .overlayLogo-two {
+    top: 0px;
+    left: 0%;
+  }
+  h3.experience {
+    font-family: "Inter", sans-serif;
+    width: 268px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  p.customer {
+    position: relative;
+    width: 347px;
+  }
+
+  input#inlineFormInput\ input-subscribe {
+    width: 215px;
+  }
+}
