@@ -286,8 +286,16 @@ input#inlineFormInput\ input-subscribe {
 }
 
 button.input-btn {
-  left: -117px;
+  left: -95px;
   position: relative;
+  max-width: 90px;
+  font-size: 14px;
+}
+input#inlineFormInput\ input-subscribed {
+  width: 100%;
+}
+input#inlineFormInput\ input-subscribe::placeholder {
+  font-size: 14px;
 }
 #section-six {
   max-height: 360px;
@@ -384,9 +392,6 @@ a:link {
     width: 347px;
   }
 
-  input#inlineFormInput\ input-subscribe {
-    width: 215px;
-  }
   h3.tolu-experience {
     margin-top: 2rem;
     font-size: 24px;
@@ -408,4 +413,26 @@ a:link {
 img.img-fluid.tolu-experience-three {
   margin-bottom: 1rem;
   max-width: 300px;
+}
+
+form.sub {
+  border: none !important;
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
+
+input .sub-input {
+  flex-grow: 2;
+  border: none;
+}
+
+input .sub-input:focus {
+  outline: none;
+}
+
+button .sub-button {
+  border: 1px solid blue;
+  background: blue;
+  color: white;
 }

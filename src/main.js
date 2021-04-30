@@ -396,22 +396,16 @@ function Main() {
                 We’d make sure you’re always first to know what’s happening on
                 Vasiti—thus, the world.
               </p>
-              <Form>
-                <Form.Row className="align-items-center">
-                  <Col xs="auto">
-                    <Form.Control
-                      className="mb-2"
-                      id="inlineFormInput input-subscribe"
-                      placeholder="enter your email address"
-                    />
-                  </Col>
-
-                  <Col xs="auto">
-                    <Button type="submit" className="mb-2 input-btn">
-                      SUBSCRIBE
-                    </Button>
-                  </Col>
-                </Form.Row>
+              <Form className="align-items-center mb-4 sub">
+                <input
+                  className="mb-2 sub-input"
+                  id="inlineFormInput input-subscribe"
+                  placeholder="enter your email address"
+                />
+                <Button type="submit" className="mb-2 input-btn  sub-input">
+                  {" "}
+                  SUBSCRIBE
+                </Button>
               </Form>
             </Col>
           </Row>
