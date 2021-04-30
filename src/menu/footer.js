@@ -1,4 +1,4 @@
-import { Row, Col, Container, Navbar, Nav } from "react-bootstrap";
+import { Row, Col, Container, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style.css";
 import { SocialIcon } from "react-social-icons";
