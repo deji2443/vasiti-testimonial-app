@@ -1,6 +1,8 @@
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style.css";
+import React from "react";
+import { Typography, Link } from "@material-ui/core";
 
 function MainHeader() {
   return (
@@ -22,7 +24,17 @@ function MainHeader() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+      </Navbar>{" "}
+      <div className="home-link">
+        <Typography className="d-inline mt-link">
+          <Link href="#">MARKETPLACE</Link>
+          <Link href="#">WHOLESALE CENTER</Link>
+          <Link href="#">SELLER CENTER</Link>
+          <Link href="#">SERVICES</Link>
+          <Link href="#">INTERNSHIPS</Link>
+          <Link href="#">EVENTS</Link>
+        </Typography>
+      </div>
     </div>
   );
 }
